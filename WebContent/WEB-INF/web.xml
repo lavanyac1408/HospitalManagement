@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+<servlet-name>first</servlet-name>
+<servlet-class>com.jnit.DoctorRegister</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>first</servlet-name>
+<url-pattern>/jnit_register</url-pattern>
+</servlet-mapping>
+
+</web-app>
